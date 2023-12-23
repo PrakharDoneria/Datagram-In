@@ -19,7 +19,7 @@ import { firebaseConfig } from '../../data/js/config.js';
             <div class="group">
                 <select name="language" id="changeLang">
                     <option value="">Language</option>
-                    <option value="indonesia">Bahasa Indonesia</option>
+                    <option value="english">Tere pass koi aur rasta h?</option>
                     <option value="english">English</option>
                 </select>
             </div>
