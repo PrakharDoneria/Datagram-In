@@ -135,7 +135,7 @@ import { getID } from "../../../data/js/authState.js";
             const linkTwitter = element.querySelector(`#twitter-social`);
 
             editLinkGithub.onclick = () => popup.prompt({
-                msg: 'GitHub Username<br>Ex: devanka761',
+                msg: 'GitHub Username<br>Ex: prakhardoneria',
                 max: 20,
                 onyes: (res) => {
                     update(ref(db, 'users/' + currentID), {
@@ -293,11 +293,11 @@ import { getID } from "../../../data/js/authState.js";
                     <h2>- - Option - -</h2>
                     <div class="box" data-edit="language">
                         <i>${lang.language}:</i>
-                        <p id="language">Bahasa Indonesia</p>
+                        <p id="language">Will add some</p>
                         <button class="bottom">
                             <select name="language" id="changeLang">
                                 <option value="">${lang.select_lang}</option>
-                                <option value="indonesia">Bahasa Indonesia</option>
+                                <option value="english">Willadd soon</option>
                                 <option value="english">English</option>
                             </select>
                         </button>
@@ -426,7 +426,7 @@ import { getID } from "../../../data/js/authState.js";
         });
         let currentLang;
         if(userLocale.state.last_lang == 'indonesia') {
-            currentLang = 'indonesia'
+            currentLang = 'english'
         } else {
             currentLang = 'english';
         }
