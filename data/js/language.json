@@ -325,7 +325,7 @@
             "something_wrong": "Something Went Wrong",
             "user_not_found": "404: User Not Found!",
             "user_detail": "User Detail",
-            "hey_there": "Hey There! I'm Using Kirimin.",
+            "hey_there": "Hey There! I'm using Datagram.",
             "Setting": {
                 "ok": "OK",
                 "cancel": "CANCEL",
@@ -346,7 +346,7 @@
                 "your_github": "Your GitHub Page",
                 "your_youtube": "Your Youtube Channel",
                 "your_twtiter": "Your Twitter Profile",
-                "hey_there": "Hey There! I'm Using Kirimin.",
+                "hey_there": "Hey There! I'm using Datagram.",
                 "not_linked": "Not Linked",
                 "linked": "Linked",
                 "new_username": "New Username",
