@@ -19,7 +19,7 @@ import { firebaseConfig } from '../../data/js/config.js';
             <div class="group">
                 <select name="language" id="changeLang">
                     <option value="">Language</option>
-                    <option value="english">Tere pass koi aur rasta h?</option>
+                    <option value="hindi">हिंदी</option>
                     <option value="english">English</option>
                 </select>
             </div>
@@ -75,8 +75,8 @@ import { firebaseConfig } from '../../data/js/config.js';
         });
 
         let currentLang;
-        if(userLocale.state.last_lang == 'indonesia') {
-            currentLang = 'indonesia'
+        if(userLocale.state.last_lang == 'हिंदी') {
+            currentLang = 'हिंदी'
         } else {
             currentLang = 'english';
         }
